@@ -40,6 +40,7 @@ public class LoginPage extends Base_Class implements LoginPageInterfaceElements 
         Thread.sleep(2000);
         clickOnElement(signin);
         Thread.sleep(4000);
+
         // retrieve/print the title text (getText in Base_Class is void and handles output)
         getText(title);
         System.out.println("Code completed");
